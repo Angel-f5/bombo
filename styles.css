@@ -6,6 +6,7 @@ body {
 header,
 main,
 footer {
+  position: absolute
   width: 100%;
   max-width: 1024px;
   margin-left: auto;
@@ -24,24 +25,24 @@ header img {
 
 
 header nav a {
+  width: 100px;
   color: white;
   display: flex;
-  justify-content: space-around;
-  text-align: left;
+  justify-content: space-between;
+  text-align: left;  
 }
 header nav ul {
   display: flex;
-  j
   list-style: none;
+  text-align: left;
 }
+header nav li {  
+  text-align: left;
+}
+
 body {
   position: relative;
   background-color: #0b032c;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
 }
 
 footer {
